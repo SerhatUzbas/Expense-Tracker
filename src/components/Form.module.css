@@ -1,0 +1,42 @@
+.container {
+  background-color: rgb(250, 250, 250);
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 255, 0.2);
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+label {
+  width: 2rem;
+}
+
+input {
+  width: 12rem;
+  border-radius: 50px;
+  transition: all 0.2s ease-in;
+}
+
+input:focus {
+  transform: scale(1.2);
+}
+
+.button {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 30px;
+  background-color: rgb(228, 55, 112);
+  border: none;
+  transition: all 0.2s ease-in;
+}
+
+.button:hover,
+.button:focus {
+  transform: translateY(-7px);
+  box-shadow: 5px 10px rgba(0, 0, 255, 0.2);
+}

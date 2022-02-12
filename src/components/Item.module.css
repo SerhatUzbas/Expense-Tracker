@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: -20px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.income {
+  background-color: rgb(84, 177, 84);
+}
+
+.expense {
+  background-color: rgb(194, 31, 31);
+}
+
+.item h2 {
+  width: 100px;
+}
+
+.remove {
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+}
